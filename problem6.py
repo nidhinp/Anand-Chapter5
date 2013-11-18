@@ -3,7 +3,13 @@ from os.path import isfile, join
 import sys
 
 def count_lines(filename):
-	return len(open(filename).readlines())
+	count = 0
+	for line in open(filename):
+		if line == '\n' or line[0] == '#':
+			continue
+		else:
+			count +=1
+	return count
 
 line_count = 0
 def count_pyfile(path):
