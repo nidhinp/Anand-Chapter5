@@ -1,3 +1,7 @@
+""" Write a function to compute the number of python files(.py extension)
+    in a specified directory recursively.
+"""
+
 from os import listdir
 from os.path import isfile, join
 import sys

@@ -1,3 +1,8 @@
+""" Write a function to compute the total number of lines of code,
+    ignoring empty and command lines, in all python in the specified 
+    directory recursively.
+"""
+
 from os import listdir
 from os.path import isfile, join
 import sys

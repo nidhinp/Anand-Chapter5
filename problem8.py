@@ -1,3 +1,7 @@
+""" Write a function peep, that takes an iterator as argument and
+    returns the first element and an equivalent iterator.
+"""
+
 import itertools
 
 def peep(it):

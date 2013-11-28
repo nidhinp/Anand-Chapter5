@@ -1,3 +1,8 @@
+""" Write a function findfiles that recursively descends the directory 
+    tree for the specified directory and generates paths of all the files
+    in the tree.
+"""
+
 from os import listdir
 from os.path import isdir, join
 import sys

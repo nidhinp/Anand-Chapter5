@@ -1,3 +1,6 @@
+""" Implement a function izip that works like itertools.izip.
+"""
+
 def my_izip(a, b):
 	index = 0
 	for item in a:

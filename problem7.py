@@ -1,3 +1,8 @@
+""" Write a program that takes an integer n and a filename as command line
+    arguments and split the file into multiple small files with each having 
+    n lines.
+"""
+
 import sys
 
 def write_file(lines, newfiles):

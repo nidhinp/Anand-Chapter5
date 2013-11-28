@@ -1,3 +1,7 @@
+""" Write an iterator class reverse_iter, that takes a list and iterate it 
+    from the reverse direction.
+"""
+
 class reverse_iter:
 	def __init__(self, n):
 		self.i = 0
